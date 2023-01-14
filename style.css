@@ -1,0 +1,9 @@
+body{
+    background-color: #fff4e7;
+    font-family: 'Play', sans-serif;
+}
+
+/* header area  */
+.header{
+    display: flex;
+}
