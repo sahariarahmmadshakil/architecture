@@ -253,13 +253,18 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
+    border: 2px solid #85817c0b;
+    padding: 20px;
+    border-radius: 10px;
 }
 .testmoial-area>h1{
     font-size: 50px;
+    color: #ff900e;
 }
 .review{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
 }
 .review-body{
     width: 250px;
@@ -270,4 +275,16 @@ body {
 }
 .review-body>img{
     width: 50%;
+}
+.footer{
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #fff4e7;
+    display: grid;
+    align-items: center;
+    font-size: 24px;
+    color: #85817c;
 }
