@@ -194,11 +194,21 @@ body {
     width: 40%;
     height: 80px;
 }
-
+.fact-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 .fact-img-area {
     margin-top: 100px;
     width: 250px;
-    height: 250px;
+    height: 200px;
     border: 2px solid #ff900e;
     border-radius: 10px;
+    padding-top: 30px;
+}
+.fact-img-area>h3{
+    color: #85817c;
+}
+.fact-img-area>*{
+    text-align: center;
 }
