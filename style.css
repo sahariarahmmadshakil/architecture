@@ -152,16 +152,53 @@ body {
     width: 250px;
     height: 120px;
     background-color: #ff900e;
-    position: relative;
+    position: absolute;
     margin-top: -80px;
+
     margin-left: -80px;
     border-radius: 10px;
     color: #ffffff;
 }
-.experience-area>h1{
-font-size: 40px;
-line-height: 10px;
+
+.experience-area>h1 {
+    font-size: 40px;
+    line-height: 10px;
 }
-.experience-area>p{
-font-size: 24px;
+
+.experience-area>p {
+    font-size: 24px;
+}
+
+/* fact area  */
+
+.fact-area {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.fact-heading>h1 {
+    font-size: 50px;
+}
+
+.fact-heading>p {
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: #85817c;
+}
+
+.fact-heading {
+    margin-top: 60px;
+    padding: 60px;
+    padding-left: 0px;
+    width: 40%;
+    height: 80px;
+}
+
+.fact-img-area {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ff900e;
+    border-radius: 10px;
 }
